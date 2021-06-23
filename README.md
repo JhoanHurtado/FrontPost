@@ -1,1 +1,1 @@
-Este cliente esta construidos directamente con Html, Bootstrap y JavaScript.
+Este cliente esta construido directamente con Html, Bootstrap y JavaScript.
