@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Post</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">POST WEB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Posts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <a href="index.html" class="nav-link" rel="noopener noreferrer" id="navEmail">email@email.com</a>
+        </div>
+        <div>
+            <a href="javascript:void(0)" class="nav-link" id="logOut">Salir</a>
+        </div>
+    </nav>
+
+    <br>
+
+    <div id="createPost">
+        <h3 class="text-center text-white pt-5">Nuevo Post</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="reg-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Registrar Post</h3>
+                            <div class="form-group">
+                                <label for="Titulo" class="text-info">Titulo:</label><br>
+                                <input type="text" name="Titulo" id="Titulo" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="file" class="text-info">Imagen:</label><br>
+                                <input type="file" name="file" id="file" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="Content" class="text-info">Descripcion:</label><br>
+                                <textarea name="Content" id="Content" cols="30" rows="10"
+                                    class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="button" name="submit" class="btn btn-info btn-md" id="postRegist"
+                                    value="Registrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="js/createPost.js"></script>
+</body>
+
+</html>
